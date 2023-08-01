@@ -1,0 +1,120 @@
+.trafik{
+    background-image: url(/images/ARAC.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover
+}
+
+.header--sticky .site-logo-img-sticky+.site-logo-img{
+    width: 100px;
+    height: 100px;
+}
+
+.site-header,
+header#header,.site-footer{
+    background-image: none !important;
+    background-color: #fff;
+}
+
+.site-footer{
+    background-color:  #c1d7e2;
+}
+.eluidbf7aee19{
+    margin-bottom: 150px;
+}
+
+#totop{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+#totop i{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#totop::before{
+    content: none;
+}
+
+.partners_carousel .partners_carousel-img{
+    max-height: 100px;
+}
+.image-boxes-img{
+    height: 200px;
+}
+.zn_pb_wrapper .clearfix .zn_sortable_content{
+    width: 100%;
+}
+.bgback.saglik{
+    background-image: url(/images/Saglik_Sigortasi.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+.bgback.yangin{
+    background-image: url(/images/KONUT.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+.bgback.hakkimizda{
+    background-image: url(/images/insurance.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+.bgback.müh{
+    background-image: url(/images/MUHENDISLIK.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+.bgback.trafik{
+    background-image: url(/images/ARAC.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+  .kl-slideshow{
+    background-image: url(/images/insurance.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Add this line to center the image */
+    position: relative;
+    height: 505px;
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+}
+
+ #rev_slider_1_1_forcefullwidth{
+    display: none;
+    
+}   
+
+ .btn.btn-fullcolor, .btn.btn-fullcolor:focus, .btn.btn-fullcolor.btn-skewed:before, .circle-text-box.style3 .wpk-circle-span, .circle-text-box.style2 .wpk-circle-span::before, .circle-text-box:not(.style3) .wpk-circle-span:after, .elm-social-icons.sc--normal .elm-sc-icon:hover, .elm-searchbox--normal .elm-searchbox__submit, .elm-searchbox--transparent .elm-searchbox__submit, .hover-box:hover, .how_to_shop .number, .image-boxes.image-boxes--4 .image-boxes-title:after, .kl-flex--classic .zn_simple_carousel-arr:hover, .kl-flex--modern .flex-underbar, .kl-blog-item-overlay-inner .kl-blog-item-overlay-more:hover, .kl-blog-related-post-link:after, .kl-ioscaption--style1 .more:before, .kl-ioscaption--style1 .more:after, .kl-ioscaption--style2 .more, .kl-ioscaption--style3.s3ext .main_title::before, .kl-ios-selectors-block.bullets2 .item.selected::before, .kl-ioscaption--style5 .klios-separator-line span, .zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::before, .zn-iosSl-caption.zn-iosSl-caption--style1 .zn-iosSl-more::after, .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-more, .zn-iosSl-caption.zn-iosSl-caption--style3.s3ext .zn-iosSl-mainTitle::before, .zn-iosSl-caption.zn-iosSl-caption--style5 .zn-iosSl-separatorLine span, .kl-ptfcarousel-carousel-arr:hover, .kl-ptfsortable-nav-link:hover, .kl-ptfsortable-nav-item.current .kl-ptfsortable-nav-link, .latest_posts3-post-date, .latest_posts--style4.kl-style-2 .latest_posts-elm-titlew, .latest_posts--style4.kl-style-2 .latest_posts-title:after, .latest_posts--style4.default-style .latest_posts-readon, .slick-active .slickBtn, .woocommerce ul.products.lt-offers-carousel .product-list-item:after, .media-container__link--style-borderanim1 > i, .nivo-directionNav a:hover, .pricing-table-element .plan-column.featured .subscription-price .inner-cell, .process_steps--style1 .process_steps__intro, .process_steps--style2 .process_steps__intro, .process_steps--style2 .process_steps__intro:before, .recentwork_carousel--1 .recentwork_carousel__bg, .recentwork_carousel--2 .recentwork_carousel__title:after, .recentwork_carousel--2 .recentwork_carousel__cat, .recentwork_carousel_v2 .recentwork_carousel__plus, .recentwork_carousel_v3 .btn::before, .recentwork_carousel_v3 .recentwork_carousel__cat, .timeline-box:hover .timeline-box-icon, .title_circle, .title_circle:before, .services_box--classic:hover .services_box__icon, .stepbox2-box--ok:before, .stepbox2-box--ok:after, .stepbox2-box--ok, .stepbox3-content:before, .stepbox4-number:before, .tbk--color-theme.tbk-symbol--line .tbk__symbol span, .tbk--color-theme.tbk-symbol--line_border .tbk__symbol span, .th-wowslider a.ws_next:hover, .th-wowslider a.ws_prev:hover, .zn-acc--style4 .acc-title, .zn-acc--style4 .acc-tgg-button .acc-icon:before, .zn-acc--style3 .acc-tgg-button:before, .zn_badge_sale, .zn_badge_sale:after, .elm-cmlist.elm-cmlist--v2 a:before, .elm-cmlist.elm-cmlist--v3ext a:before, .elm-custommenu--dd .elm-custommenu-pick, .shop-features .shop-feature:hover, .feature_box.style3 .box:hover, .services_box_element:hover .box .icon, .elm-social-icons.sc--normal .elm-sc-link:hover .elm-sc-icon{
+    background-color: #CD2122;
+}
+
+.breadcrumbs.bread-style--black li:before, .infobox2-inner, .kl-flex--classic .flex-caption, .ls--laptop .ls__item-caption, .nivo-caption, .process_steps--style1 .process_steps__intro:after, .stepbox3-box[data-align=left] .stepbox3-content:after, .th-wowslider .ws-title, .kl-ioscaption--style2 .title_big, .kl-ioscaption--style2 .title_small, .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-bigTitle, .zn-iosSl-caption.zn-iosSl-caption--style2 .zn-iosSl-smallTitle, html[dir="rtl"] .vr-tabs-kl-style-1 .vr-tabs-nav-item.active .vr-tabs-nav-link{
+    border-left-color: #CD2122;
+}
