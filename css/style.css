@@ -44,9 +44,18 @@ header#header,.site-footer{
 #totop::before{
     content: none;
 }
-.element-scheme--light p{
+.element-scheme--light p, .teklif{
     font-size: 14px !important;
     margin-top: 5px;
+}
+
+.teklif a {
+    color: #000;
+}
+
+.element-scheme--light p i, .teklif i {
+    color: green;
+    font-size: 20px;
 }
 
 .partners_carousel .partners_carousel-img{
@@ -153,31 +162,32 @@ header#header,.site-footer{
     max-width: 100%;
 }
 
-.sidebar {
+.sidebar-custom {
+    padding-top: 20px;
     width: 250px;
     background-color: #fff;
     height: 100vh;
     position: fixed;
-    top: 100px;
+    top: 0px;
     right: -250px;
-    z-index: 10; /* Ensure the sidebar appears on top */
+    z-index: 10; /* Ensure the sidebar-custom appears on top */
     transition: left 0.3s ease;
   }
 
 
-  .sidebar ul {
+  .sidebar-custom ul {
     list-style: none;
     padding: 0;
     margin: 20px;
   }
   
-  .sidebar li {
+  .sidebar-custom li {
     color: #000;
     padding: 10px;
     cursor: pointer;
     position: relative; /* Required for positioning the dropdown */
   }
-  .sidebar li  a{
+  .sidebar-custom li  a{
     color: #000;
   }
 
@@ -221,7 +231,7 @@ header#header,.site-footer{
   }
   
   /* Show the dropdown when hovering over the parent menu item */
-.sidebar li:hover .dropdown {
+.sidebar-custom li:hover .dropdown {
     display: block;
   }
   .accordion-item{
