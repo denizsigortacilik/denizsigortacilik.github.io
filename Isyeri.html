@@ -27,6 +27,9 @@
         <link rel='stylesheet' id='2-layout.css-css' href='./css/layout.css' type='text/css' media='all' />
         <link rel='stylesheet' id='th-theme-print-stylesheet-css' href='./css/print.css' type='text/css' media='print' />
         <link rel='stylesheet' id='th-theme-options-styles-css' href='./css/dynamic.css' type='text/css' media='all' />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
         <script type='text/javascript' src='./js/jquery.min.js' id='jquery-core-js'></script>
         <script type='text/javascript' src='./js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
         <script type='text/javascript' src='./js/rbtools.min.js' async id='tp-tools-js'></script>
@@ -185,6 +188,84 @@
 
 <div id="page_wrapper">
 
+    <div class="sidebar" id="sidebar">
+        <button class="go-back-button" onclick="toggleSidebar()"><i class="bi bi-arrow-left"></i>Go Back</button>
+
+		<ul>
+		  <li> <a href="index.html">Ana Sayfa</a> </li>
+		  <div class="accordion" id="accordionExample">
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="headingOne">
+				<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				  Sağlık
+				</button>
+			  </h2>
+			  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li> <a href="SaglikSigorta.html">Sağlık Sigortası</a></li>
+						<li> <a href="SeyahatSigorta.html">Seyahat Sigortası</a></li>
+						<li> <a href="TamamlayiciSaglikSigortasi.html">Tamamlayıcı Sağlık Sigortası</a></li>
+					</ul>
+				</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="headingTwo">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				  Araç
+				</button>
+			  </h2>
+			  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li> <a href="Trafik.html">Trafik Sigortası</a></li>
+						<li> <a href="Kasko.html">KASKO</a></li>
+						<li> <a href="FerdiKaza.html">Ferdi Kaza Sigortası</a></li>
+						<li> <a onclick="openPDF()">Kaza Tespit Tutanağı</a></li>
+					</ul>
+				</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				  Yangın
+				</button>
+			  </h2>
+			  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li> <a href="KonutSigortasi.html">Konut Sigortası</a></li>
+						<li> <a href="ZorunluDeprem.html">Zorunlu Deprem Sigortası</a></li>
+					</ul>				
+				</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					Mühendislik
+				</button>
+			  </h2>
+			  <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+				<div class="accordion-body">
+					<ul>
+						<li> <a href="Muhendislik.html">Mühendislik Sigortası</a></li>
+						<li> <a href="Nakliyat.html">Nakliyat Sigortası</a></li>
+						<li> <a href="Isyeri.html">İşyeri Deprem Sigortası</a></li>
+						<li> <a href="MeslekiSorumluluk.html">Mesleki Sorumluluk Sigortası</a></li>
+					</ul>				
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <li> <a href="Hakkimizda.html">Hakkımızda</a> </li>
+		  <li> <a href="Iletisim.html">İletişim</a> </li>
+		  <!-- Add more menu items as needed -->
+		</ul>
+	  </div>
+
 <header id="header" class="site-header  style6 header--sticky header--not-sticked     sticky-resize headerstyle--image_color site-header--relative nav-th--light siteheader-classic siteheader-classic-normal sheader-sh--dark"  >
 		<div class="site-header-wrapper sticky-top-area">
 
@@ -233,7 +314,7 @@
 	<div class='fxb-col fxb fxb-end-x fxb-center-y fxb-basis-auto site-header-col-right site-header-main-right'>
 
 		<div class='fxb-col fxb fxb-end-x fxb-center-y fxb-basis-auto site-header-main-right-top'>
-								<div class="sh-component main-menu-wrapper" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" >
+								<div class="sh-component main-menu-wrapper"  onclick="toggleSidebar()" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" >
 
 					<div class="zn-res-menuwrapper">
 			<a href="#" class="zn-res-trigger zn-menuBurger zn-menuBurger--3--s zn-menuBurger--anim1 " id="zn-res-trigger">
@@ -247,6 +328,8 @@
             <ul class="sub-menu clearfix">
                 <li id="menu-item-157" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-157  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="SaglikSigorta.html" class=" main-menu-link main-menu-link-sub"><span>Sağlık Sigortası</span></a></li>
                 <li id="menu-item-209" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-209  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="SeyahatSigorta.html" class=" main-menu-link main-menu-link-sub"><span>Seyahat Sigortası</span></a></li>
+                <li id="menu-item-209" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-209  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="TamamlayiciSaglikSigortasi.html" class=" main-menu-link main-menu-link-sub"><span>Tamamlayıcı Sağlık Sigortası</span></a></li>
+
             </ul>
             </li>
             <li id="menu-item-19" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-17  main-menu-item-top  menu-item-even menu-item-depth-0 "><a href="#" class=" main-menu-link main-menu-link-top"><span>ARAÇ</span></a>
@@ -265,8 +348,11 @@
             </li>
             <li id="menu-item-19" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-17  main-menu-item-top  menu-item-even menu-item-depth-0 active"><a href="#" class=" main-menu-link main-menu-link-top"><span>MÜHENDİSLİK</span></a>
                 <ul class="sub-menu clearfix">
+                    <li id="menu-item-157" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-157  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="Muhendislik.html" class=" main-menu-link main-menu-link-sub"><span>Mühendislik Sigortası</span></a></li>
                     <li id="menu-item-157" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-157  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="Nakliyat.html" class=" main-menu-link main-menu-link-sub"><span>Nakliyat Sigortası</span></a></li>
                     <li id="menu-item-209" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-209  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="Isyeri.html" class=" main-menu-link main-menu-link-sub"><span>İşyeri Deprem</span></a></li>
+                    <li id="menu-item-209" class="main-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-209  main-menu-item-sub  menu-item-odd menu-item-depth-1"><a href="MeslekiSorumluluk.html" class=" main-menu-link main-menu-link-sub"><span>Mesleki Sorumluluk Sigortası</span></a></li>
+
                 </ul>
             </li>
             <li id="menu-item-158" class="main-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-158  main-menu-item-top  menu-item-even menu-item-depth-0"><a href="Hakkimizda.html" class=" main-menu-link main-menu-link-top"><span>HAKKIMIZDA</span></a></li>
@@ -348,8 +434,11 @@
 				<div class="znColumnElement-innerContent">					
 		<div id="sidebar-widget-eluid3b942be7" class="sidebar zn_sidebar eluid3b942be7  kl-sidebar--light element-scheme--light " ><div id="nav_menu-3" class="widget zn-sidebar-widget widget_nav_menu"><h3 class="widgettitle zn-sidebar-widget-title title">ÜRÜNLERİMİZ</h3><div class="menu-urunlerimiz-container"><ul id="menu-urunlerimiz" class="menu"><li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1138 active"><a href="#">MÜHENDİSLİK</a>
 <ul class="sub-menu">
+    <li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-845 current_page_item menu-item-1140"><a href="Muhendislik.html" aria-current="page">Mühendislik Sigortası</a></li>
 	<li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-845 current_page_item menu-item-1140 "><a href="Nakliyat.html" aria-current="page">Nakliyat Sigortası</a></li>
 	<li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142 active"><a href="Isyeri.html">İşyeri Sigortası</a></li>
+    <li id="menu-item-1142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1142 "><a href="MeslekiSorumluluk.html">Mesleki Sorumluluk Sigortası</a></li>
+
 </ul>
 </li>
 </ul></div></div></div>					</div>
@@ -480,6 +569,19 @@
 var zn_do_login = {"ajaxurl":"\/wp-admin\/admin-ajax.php","add_to_cart_text":"Item Added to cart!"};
 
 /* ]]> */
+</script>
+<script>
+function toggleSidebar() {
+  const sidebar = document.getElementById("sidebar");
+  const mainContent = document.querySelector(".main-content");
+  if (sidebar.style.right === "-250px") {
+    sidebar.style.right = "0";
+    mainContent.style.marginRight = "250px"; // Move the main content to the right
+  } else {
+    sidebar.style.right = "-250px";
+    mainContent.style.marginRight = "0"; // Reset the main content's margin
+  }
+}
 </script>
 <script>
 	function openPDF() {
